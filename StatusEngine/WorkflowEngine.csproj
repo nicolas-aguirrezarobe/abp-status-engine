@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>WorkflowEngine</AssemblyName>
+    <RootNamespace>WorkflowEngine</RootNamespace>
+    <PackageId>WorkflowEngine</PackageId>
+    <Version>1.0.9</Version>
+    <Authors>Nicolás Aguirrezarobe</Authors>
+    <Company>Inamika</Company>
+    <Description>State machine builder to help control the lifecycle of a workflow</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.ZeroCore" Version="5.1.0" />
+  </ItemGroup>
+
+</Project>
