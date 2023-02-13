@@ -1,5 +1,4 @@
 # abp-status-engine
-## _The Last Markdown Editor, Ever_
 
 A simple status-flow engine based on Abp.ZeroCore that help you define a flow of statuses with validations and events.
 Built on top of Abp.Events.Bus to distribute events raised because of status changes.
